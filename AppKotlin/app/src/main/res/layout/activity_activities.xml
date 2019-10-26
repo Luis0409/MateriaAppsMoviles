@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#5CFFA3"
+    android:gravity="center"
+    tools:context=".Activities">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Activities"
+                android:textSize="20pt" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/activities" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Codigo en el cual de acuerdo a al ingreso de una contraseña este te
+redirecciona a otra pagina.\n Se le conoce como la comunicacion entre dos activitys."
+                android:textAlignment="viewStart" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Codigo Kotlin"
+                android:textSize="15pt" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/activitycod" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+            <Button
+                android:id="@+id/btnRegresarActivity"
+                android:layout_width="100pt"
+                android:layout_height="wrap_content"
+                android:background="#F44336"
+                android:text="Regresar"
+                android:textColor="#FFFFFF"
+                android:textSize="10pt" />
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="5mm" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

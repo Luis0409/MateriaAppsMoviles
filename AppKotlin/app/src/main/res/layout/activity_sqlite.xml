@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#5CFFA3"
+    tools:context=".SQLite">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SQLite"
+                android:textSize="20pt" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/sql" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="La conexion SQLite sirve como una manera de tener una base de datos
+para asi nosotros podamos tener datos y de esta manera poder hacer consultas.\nEn el siguiente
+se muestra como se hace uso del codigo para tener una conexion."
+                android:textAlignment="viewStart" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Codigo Kotlin"
+                android:textSize="15pt" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/sqlcod1" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/sqlcod2" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/sqlcod3" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="En esta imagen se muestra una clase de Kotlin utilizada para formar una
+conexion con SQLite."/>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm"/>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/sqlcod4" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+            <Button
+                android:id="@+id/btnRegresarSql"
+                android:layout_width="100pt"
+                android:layout_height="wrap_content"
+                android:background="#F44336"
+                android:text="Regresar"
+                android:textColor="#FFFFFF"
+                android:textSize="10pt" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
